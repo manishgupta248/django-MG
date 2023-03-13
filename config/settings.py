@@ -39,6 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # Loacl App
     'accounts.apps.AccountsConfig',
+    'myapp.apps.MyappConfig',
+    # Installed Apps
+    'import_export',
 ]
 
 MIDDLEWARE = [
